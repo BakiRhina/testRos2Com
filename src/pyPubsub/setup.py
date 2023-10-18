@@ -16,10 +16,11 @@ setup(
     maintainer='kyu8',
     maintainer_email='guillemsenabre@gmail.com',
     description='TODO: Package description',
-    license='TODO: License declaration',
+    license='Apache Lincense 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+		'talker = py_pubsub.publisher_member_function:main',
         ],
     },
 )
