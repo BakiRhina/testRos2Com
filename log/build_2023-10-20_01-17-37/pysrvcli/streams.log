@@ -1,0 +1,43 @@
+[2.995s] Invoking command in '/home/kyu8/ros2_ws/src/pysrvcli': PYTHONPATH=/home/kyu8/ros2_ws/build/pysrvcli/prefix_override:/home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pysrvcli build --build-base /home/kyu8/ros2_ws/build/pysrvcli/build install --record /home/kyu8/ros2_ws/build/pysrvcli/install.log --single-version-externally-managed
+[3.548s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.548s]   warnings.warn(
+[3.548s] running egg_info
+[3.549s] creating ../../build/pysrvcli/pysrvcli.egg-info
+[3.549s] writing ../../build/pysrvcli/pysrvcli.egg-info/PKG-INFO
+[3.549s] writing dependency_links to ../../build/pysrvcli/pysrvcli.egg-info/dependency_links.txt
+[3.549s] writing entry points to ../../build/pysrvcli/pysrvcli.egg-info/entry_points.txt
+[3.549s] writing requirements to ../../build/pysrvcli/pysrvcli.egg-info/requires.txt
+[3.549s] writing top-level names to ../../build/pysrvcli/pysrvcli.egg-info/top_level.txt
+[3.549s] writing manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+[3.550s] reading manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+[3.550s] writing manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+[3.550s] running build
+[3.550s] running build_py
+[3.550s] creating /home/kyu8/ros2_ws/build/pysrvcli/build
+[3.550s] creating /home/kyu8/ros2_ws/build/pysrvcli/build/lib
+[3.551s] creating /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+[3.551s] copying pysrvcli/__init__.py -> /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+[3.551s] copying pysrvcli/client_member_function.py -> /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+[3.551s] copying pysrvcli/service_member_function.py -> /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+[3.551s] running install
+[3.551s] running install_lib
+[3.551s] creating /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+[3.552s] copying /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli/__init__.py -> /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+[3.552s] copying /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli/client_member_function.py -> /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+[3.552s] copying /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli/service_member_function.py -> /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+[3.552s] byte-compiling /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli/__init__.py to __init__.cpython-310.pyc
+[3.552s] byte-compiling /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[3.553s] byte-compiling /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[3.553s] running install_data
+[3.553s] creating /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index
+[3.553s] creating /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index/resource_index
+[3.553s] creating /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index/resource_index/packages
+[3.553s] copying resource/pysrvcli -> /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index/resource_index/packages
+[3.553s] copying package.xml -> /home/kyu8/ros2_ws/install/pysrvcli/share/pysrvcli
+[3.553s] running install_egg_info
+[3.555s] Copying ../../build/pysrvcli/pysrvcli.egg-info to /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli-0.0.0-py3.10.egg-info
+[3.557s] running install_scripts
+[3.595s] Installing client script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli
+[3.596s] Installing service script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli
+[3.596s] writing list of installed files to '/home/kyu8/ros2_ws/build/pysrvcli/install.log'
+[3.826s] Invoked command in '/home/kyu8/ros2_ws/src/pysrvcli' returned '0': PYTHONPATH=/home/kyu8/ros2_ws/build/pysrvcli/prefix_override:/home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pysrvcli build --build-base /home/kyu8/ros2_ws/build/pysrvcli/build install --record /home/kyu8/ros2_ws/build/pysrvcli/install.log --single-version-externally-managed

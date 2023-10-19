@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
 		'service = pysrvcli.service_member_function:main',
+		'client = pysrvcli.client_member_function:main',
         ],
     },
 )

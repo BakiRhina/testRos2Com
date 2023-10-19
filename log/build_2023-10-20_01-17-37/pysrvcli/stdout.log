@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/pysrvcli/pysrvcli.egg-info
+writing ../../build/pysrvcli/pysrvcli.egg-info/PKG-INFO
+writing dependency_links to ../../build/pysrvcli/pysrvcli.egg-info/dependency_links.txt
+writing entry points to ../../build/pysrvcli/pysrvcli.egg-info/entry_points.txt
+writing requirements to ../../build/pysrvcli/pysrvcli.egg-info/requires.txt
+writing top-level names to ../../build/pysrvcli/pysrvcli.egg-info/top_level.txt
+writing manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+reading manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+writing manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kyu8/ros2_ws/build/pysrvcli/build
+creating /home/kyu8/ros2_ws/build/pysrvcli/build/lib
+creating /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+copying pysrvcli/__init__.py -> /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+copying pysrvcli/client_member_function.py -> /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+copying pysrvcli/service_member_function.py -> /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli
+running install
+running install_lib
+creating /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+copying /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli/__init__.py -> /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+copying /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli/client_member_function.py -> /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+copying /home/kyu8/ros2_ws/build/pysrvcli/build/lib/pysrvcli/service_member_function.py -> /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli
+byte-compiling /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli/client_member_function.py to client_member_function.cpython-310.pyc
+byte-compiling /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli/service_member_function.py to service_member_function.cpython-310.pyc
+running install_data
+creating /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index
+creating /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index/resource_index
+creating /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index/resource_index/packages
+copying resource/pysrvcli -> /home/kyu8/ros2_ws/install/pysrvcli/share/ament_index/resource_index/packages
+copying package.xml -> /home/kyu8/ros2_ws/install/pysrvcli/share/pysrvcli
+running install_egg_info
+Copying ../../build/pysrvcli/pysrvcli.egg-info to /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli
+Installing service script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli
+writing list of installed files to '/home/kyu8/ros2_ws/build/pysrvcli/install.log'

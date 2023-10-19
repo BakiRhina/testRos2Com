@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000365] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000404] (pyPubsub) JobQueued: {'identifier': 'pyPubsub', 'dependencies': OrderedDict()}
+[0.000476] (pysrvcli) JobQueued: {'identifier': 'pysrvcli', 'dependencies': OrderedDict()}
+[0.000524] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.097709] (-) TimerEvent: {}
+[0.176225] (pyPubsub) JobStarted: {'identifier': 'pyPubsub'}
+[0.198639] (-) TimerEvent: {}
+[0.300498] (-) TimerEvent: {}
+[0.337895] (pysrvcli) JobStarted: {'identifier': 'pysrvcli'}
+[0.401513] (-) TimerEvent: {}
+[0.502498] (-) TimerEvent: {}
+[0.614702] (-) TimerEvent: {}
+[0.722683] (-) TimerEvent: {}
+[0.835053] (-) TimerEvent: {}
+[0.949707] (-) TimerEvent: {}
+[1.050844] (-) TimerEvent: {}
+[1.182677] (-) TimerEvent: {}
+[1.283258] (-) TimerEvent: {}
+[1.383749] (-) TimerEvent: {}
+[1.490609] (-) TimerEvent: {}
+[1.591128] (-) TimerEvent: {}
+[1.691673] (-) TimerEvent: {}
+[1.793052] (-) TimerEvent: {}
+[1.895978] (-) TimerEvent: {}
+[1.996535] (-) TimerEvent: {}
+[2.096997] (-) TimerEvent: {}
+[2.223245] (-) TimerEvent: {}
+[2.326104] (-) TimerEvent: {}
+[2.430158] (-) TimerEvent: {}
+[2.531166] (-) TimerEvent: {}
+[2.636502] (-) TimerEvent: {}
+[2.738075] (-) TimerEvent: {}
+[3.136221] (-) TimerEvent: {}
+[3.298214] (-) TimerEvent: {}
+[3.317464] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/kyu8/ros2_ws/build/my_package/build', 'install', '--record', '/home/kyu8/ros2_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/kyu8/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kyu8', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kyu8', 'OLDPWD': '/home/kyu8/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW', 'SYSTEMD_EXEC_PID': '1268', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kyu8/ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kyu8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kyu8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/rolling/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/8kyuG:@/tmp/.ICE-unix/912,unix/8kyuG:/tmp/.ICE-unix/912', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9b480e91_4df6_4c0c_afda_9d9caf52651b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HMAUC2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.140', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kyu8/ros2_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kyu8/ros2_ws/build/my_package/prefix_override:/home/kyu8/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.329524] (pyPubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pyPubsub', 'build', '--build-base', '/home/kyu8/ros2_ws/build/pyPubsub/build', 'install', '--record', '/home/kyu8/ros2_ws/build/pyPubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/kyu8/ros2_ws/src/pyPubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kyu8', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kyu8', 'OLDPWD': '/home/kyu8/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW', 'SYSTEMD_EXEC_PID': '1268', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kyu8/ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kyu8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kyu8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/rolling/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/8kyuG:@/tmp/.ICE-unix/912,unix/8kyuG:/tmp/.ICE-unix/912', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9b480e91_4df6_4c0c_afda_9d9caf52651b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HMAUC2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.140', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kyu8/ros2_ws/build/pyPubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kyu8/ros2_ws/build/pyPubsub/prefix_override:/home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.335137] (pysrvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pysrvcli', 'build', '--build-base', '/home/kyu8/ros2_ws/build/pysrvcli/build', 'install', '--record', '/home/kyu8/ros2_ws/build/pysrvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/kyu8/ros2_ws/src/pysrvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kyu8', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kyu8', 'OLDPWD': '/home/kyu8/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW', 'SYSTEMD_EXEC_PID': '1268', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kyu8/ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kyu8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kyu8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/rolling/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/8kyuG:@/tmp/.ICE-unix/912,unix/8kyuG:/tmp/.ICE-unix/912', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9b480e91_4df6_4c0c_afda_9d9caf52651b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HMAUC2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.140', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kyu8/ros2_ws/build/pysrvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kyu8/ros2_ws/build/pysrvcli/prefix_override:/home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.401920] (-) TimerEvent: {}
+[3.531988] (-) TimerEvent: {}
+[3.664355] (-) TimerEvent: {}
+[3.820107] (-) TimerEvent: {}
+[3.832365] (pyPubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.832986] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[3.833537] (pyPubsub) StdoutLine: {'line': b'writing ../../build/pyPubsub/pyPubsub.egg-info/PKG-INFO\n'}
+[3.833779] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[3.833948] (pyPubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/pyPubsub/pyPubsub.egg-info/dependency_links.txt\n'}
+[3.834174] (pyPubsub) StdoutLine: {'line': b'writing entry points to ../../build/pyPubsub/pyPubsub.egg-info/entry_points.txt\n'}
+[3.834429] (pyPubsub) StdoutLine: {'line': b'writing requirements to ../../build/pyPubsub/pyPubsub.egg-info/requires.txt\n'}
+[3.834662] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[3.834801] (pyPubsub) StdoutLine: {'line': b'writing top-level names to ../../build/pyPubsub/pyPubsub.egg-info/top_level.txt\n'}
+[3.835022] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[3.835258] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[3.835575] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[3.837934] (pyPubsub) StdoutLine: {'line': b"reading manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'\n"}
+[3.839330] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[3.839851] (pyPubsub) StdoutLine: {'line': b"writing manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'\n"}
+[3.840193] (pyPubsub) StdoutLine: {'line': b'running build\n'}
+[3.840299] (pyPubsub) StdoutLine: {'line': b'running build_py\n'}
+[3.840759] (pyPubsub) StdoutLine: {'line': b'running install\n'}
+[3.840979] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[3.841275] (pyPubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.841401] (pyPubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.841478] (my_package) StdoutLine: {'line': b'running build\n'}
+[3.841653] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[3.841916] (pyPubsub) StdoutLine: {'line': b'running install_lib\n'}
+[3.842171] (my_package) StdoutLine: {'line': b'running install\n'}
+[3.842282] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.842387] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.842639] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[3.843511] (pyPubsub) StdoutLine: {'line': b'running install_data\n'}
+[3.844546] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[3.844743] (pyPubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.845975] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.847862] (pyPubsub) StdoutLine: {'line': b"removing '/home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.850763] (my_package) StdoutLine: {'line': b"removing '/home/kyu8/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.851079] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/kyu8/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[3.851439] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[3.857767] (pyPubsub) StdoutLine: {'line': b'Copying ../../build/pyPubsub/pyPubsub.egg-info to /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub-0.0.0-py3.10.egg-info\n'}
+[3.858646] (pyPubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[3.858906] (pysrvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.859183] (pysrvcli) StdoutLine: {'line': b'writing ../../build/pysrvcli/pysrvcli.egg-info/PKG-INFO\n'}
+[3.859394] (pysrvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/pysrvcli/pysrvcli.egg-info/dependency_links.txt\n'}
+[3.859603] (pysrvcli) StdoutLine: {'line': b'writing entry points to ../../build/pysrvcli/pysrvcli.egg-info/entry_points.txt\n'}
+[3.860034] (pysrvcli) StdoutLine: {'line': b'writing requirements to ../../build/pysrvcli/pysrvcli.egg-info/requires.txt\n'}
+[3.860407] (pysrvcli) StdoutLine: {'line': b'writing top-level names to ../../build/pysrvcli/pysrvcli.egg-info/top_level.txt\n'}
+[3.860600] (pysrvcli) StdoutLine: {'line': b"reading manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'\n"}
+[3.861004] (pysrvcli) StdoutLine: {'line': b"writing manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'\n"}
+[3.861163] (pysrvcli) StdoutLine: {'line': b'running build\n'}
+[3.861434] (pysrvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.861579] (pysrvcli) StdoutLine: {'line': b'running install\n'}
+[3.861757] (pysrvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.861888] (pysrvcli) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.862118] (pysrvcli) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.862211] (pysrvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.862289] (pysrvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.864369] (pysrvcli) StdoutLine: {'line': b"removing '/home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.864960] (pysrvcli) StdoutLine: {'line': b'Copying ../../build/pysrvcli/pysrvcli.egg-info to /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli-0.0.0-py3.10.egg-info\n'}
+[3.866188] (pysrvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.887187] (pyPubsub) StdoutLine: {'line': b'Installing listener script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub\n'}
+[3.887761] (pyPubsub) StdoutLine: {'line': b'Installing talker script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub\n'}
+[3.888254] (pyPubsub) StdoutLine: {'line': b"writing list of installed files to '/home/kyu8/ros2_ws/build/pyPubsub/install.log'\n"}
+[3.890329] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/kyu8/ros2_ws/install/my_package/lib/my_package\n'}
+[3.891238] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/kyu8/ros2_ws/build/my_package/install.log'\n"}
+[3.905395] (pysrvcli) StdoutLine: {'line': b'Installing client script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli\n'}
+[3.906060] (pysrvcli) StdoutLine: {'line': b'Installing service script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli\n'}
+[3.906329] (pysrvcli) StdoutLine: {'line': b"writing list of installed files to '/home/kyu8/ros2_ws/build/pysrvcli/install.log'\n"}
+[3.935056] (-) TimerEvent: {}
+[3.945948] (pyPubsub) CommandEnded: {'returncode': 0}
+[4.035556] (-) TimerEvent: {}
+[4.053009] (pyPubsub) JobEnded: {'identifier': 'pyPubsub', 'rc': 0}
+[4.056758] (pysrvcli) CommandEnded: {'returncode': 0}
+[4.145922] (-) TimerEvent: {}
+[4.182492] (pysrvcli) JobEnded: {'identifier': 'pysrvcli', 'rc': 0}
+[4.187615] (my_package) CommandEnded: {'returncode': 0}
+[4.247259] (-) TimerEvent: {}
+[4.330469] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[4.333053] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+source;share/pysrvcli/hook/pythonpath.ps1
+source;share/pysrvcli/hook/pythonpath.dsv
+source;share/pysrvcli/hook/pythonpath.sh
+source;share/pysrvcli/hook/ament_prefix_path.ps1
+source;share/pysrvcli/hook/ament_prefix_path.dsv
+source;share/pysrvcli/hook/ament_prefix_path.sh

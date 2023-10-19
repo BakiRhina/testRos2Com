@@ -1,0 +1,4 @@
+[console_scripts]
+client = pysrvcli.client_member_function:main
+service = pysrvcli.service_member_function:main
+

@@ -1,0 +1,24 @@
+[2.998s] Invoking command in '/home/kyu8/ros2_ws/src/pysrvcli': PYTHONPATH=/home/kyu8/ros2_ws/build/pysrvcli/prefix_override:/home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pysrvcli build --build-base /home/kyu8/ros2_ws/build/pysrvcli/build install --record /home/kyu8/ros2_ws/build/pysrvcli/install.log --single-version-externally-managed
+[3.521s] running egg_info
+[3.521s] writing ../../build/pysrvcli/pysrvcli.egg-info/PKG-INFO
+[3.522s] writing dependency_links to ../../build/pysrvcli/pysrvcli.egg-info/dependency_links.txt
+[3.522s] writing entry points to ../../build/pysrvcli/pysrvcli.egg-info/entry_points.txt
+[3.522s] writing requirements to ../../build/pysrvcli/pysrvcli.egg-info/requires.txt
+[3.523s] writing top-level names to ../../build/pysrvcli/pysrvcli.egg-info/top_level.txt
+[3.523s] reading manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+[3.523s] writing manifest file '../../build/pysrvcli/pysrvcli.egg-info/SOURCES.txt'
+[3.523s] running build
+[3.524s] running build_py
+[3.524s] running install
+[3.524s] running install_lib
+[3.524s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.524s]   warnings.warn(
+[3.524s] running install_data
+[3.524s] running install_egg_info
+[3.527s] removing '/home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[3.527s] Copying ../../build/pysrvcli/pysrvcli.egg-info to /home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages/pysrvcli-0.0.0-py3.10.egg-info
+[3.528s] running install_scripts
+[3.568s] Installing client script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli
+[3.568s] Installing service script to /home/kyu8/ros2_ws/install/pysrvcli/lib/pysrvcli
+[3.568s] writing list of installed files to '/home/kyu8/ros2_ws/build/pysrvcli/install.log'
+[3.719s] Invoked command in '/home/kyu8/ros2_ws/src/pysrvcli' returned '0': PYTHONPATH=/home/kyu8/ros2_ws/build/pysrvcli/prefix_override:/home/kyu8/ros2_ws/install/pysrvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pysrvcli build --build-base /home/kyu8/ros2_ws/build/pysrvcli/build install --record /home/kyu8/ros2_ws/build/pysrvcli/install.log --single-version-externally-managed
