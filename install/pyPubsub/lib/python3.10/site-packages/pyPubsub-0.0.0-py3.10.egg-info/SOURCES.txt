@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pyPubsub/pyPubsub.egg-info/PKG-INFO
+../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt
+../../build/pyPubsub/pyPubsub.egg-info/dependency_links.txt
+../../build/pyPubsub/pyPubsub.egg-info/entry_points.txt
+../../build/pyPubsub/pyPubsub.egg-info/requires.txt
+../../build/pyPubsub/pyPubsub.egg-info/top_level.txt
+../../build/pyPubsub/pyPubsub.egg-info/zip-safe
+pyPubsub/__init__.py
+pyPubsub/publisher_member_function.py
+pyPubsub/subscriber_member_function.py
+resource/pyPubsub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

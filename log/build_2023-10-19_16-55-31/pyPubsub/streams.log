@@ -1,0 +1,24 @@
+[2.789s] Invoking command in '/home/kyu8/ros2_ws/src/pyPubsub': PYTHONPATH=/home/kyu8/ros2_ws/build/pyPubsub/prefix_override:/home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyPubsub build --build-base /home/kyu8/ros2_ws/build/pyPubsub/build install --record /home/kyu8/ros2_ws/build/pyPubsub/install.log --single-version-externally-managed
+[3.315s] running egg_info
+[3.315s] writing ../../build/pyPubsub/pyPubsub.egg-info/PKG-INFO
+[3.315s] writing dependency_links to ../../build/pyPubsub/pyPubsub.egg-info/dependency_links.txt
+[3.336s] writing entry points to ../../build/pyPubsub/pyPubsub.egg-info/entry_points.txt
+[3.336s] writing requirements to ../../build/pyPubsub/pyPubsub.egg-info/requires.txt
+[3.337s] writing top-level names to ../../build/pyPubsub/pyPubsub.egg-info/top_level.txt
+[3.338s] reading manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+[3.338s] writing manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+[3.338s] running build
+[3.338s] running build_py
+[3.338s] running install
+[3.339s] running install_lib
+[3.339s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.339s]   warnings.warn(
+[3.340s] running install_data
+[3.340s] running install_egg_info
+[3.340s] removing '/home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.340s] Copying ../../build/pyPubsub/pyPubsub.egg-info to /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub-0.0.0-py3.10.egg-info
+[3.340s] running install_scripts
+[3.376s] Installing listener script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub
+[3.376s] Installing talker script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub
+[3.377s] writing list of installed files to '/home/kyu8/ros2_ws/build/pyPubsub/install.log'
+[3.506s] Invoked command in '/home/kyu8/ros2_ws/src/pyPubsub' returned '0': PYTHONPATH=/home/kyu8/ros2_ws/build/pyPubsub/prefix_override:/home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyPubsub build --build-base /home/kyu8/ros2_ws/build/pyPubsub/build install --record /home/kyu8/ros2_ws/build/pyPubsub/install.log --single-version-externally-managed

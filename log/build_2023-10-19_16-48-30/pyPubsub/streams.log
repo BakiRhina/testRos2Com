@@ -1,0 +1,43 @@
+[2.403s] Invoking command in '/home/kyu8/ros2_ws/src/pyPubsub': PYTHONPATH=/home/kyu8/ros2_ws/build/pyPubsub/prefix_override:/home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyPubsub build --build-base /home/kyu8/ros2_ws/build/pyPubsub/build install --record /home/kyu8/ros2_ws/build/pyPubsub/install.log --single-version-externally-managed
+[2.929s] running egg_info
+[2.934s] creating ../../build/pyPubsub/pyPubsub.egg-info
+[2.935s] writing ../../build/pyPubsub/pyPubsub.egg-info/PKG-INFO
+[2.935s] writing dependency_links to ../../build/pyPubsub/pyPubsub.egg-info/dependency_links.txt
+[2.935s] writing entry points to ../../build/pyPubsub/pyPubsub.egg-info/entry_points.txt
+[2.935s] writing requirements to ../../build/pyPubsub/pyPubsub.egg-info/requires.txt
+[2.935s] writing top-level names to ../../build/pyPubsub/pyPubsub.egg-info/top_level.txt
+[2.935s] writing manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+[2.935s] reading manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+[2.936s] writing manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+[2.936s] running build
+[2.936s] running build_py
+[2.938s] creating /home/kyu8/ros2_ws/build/pyPubsub/build
+[2.938s] creating /home/kyu8/ros2_ws/build/pyPubsub/build/lib
+[2.938s] creating /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+[2.938s] copying pyPubsub/__init__.py -> /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+[2.938s] copying pyPubsub/subscriber_member_function.py -> /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+[2.939s] copying pyPubsub/publisher_member_function.py -> /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+[2.939s] running install
+[2.939s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.939s]   warnings.warn(
+[2.940s] running install_lib
+[2.942s] creating /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+[2.942s] copying /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub/__init__.py -> /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+[2.942s] copying /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub/subscriber_member_function.py -> /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+[2.942s] copying /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub/publisher_member_function.py -> /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+[2.943s] byte-compiling /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub/__init__.py to __init__.cpython-310.pyc
+[2.944s] byte-compiling /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[2.945s] byte-compiling /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[2.945s] running install_data
+[2.947s] creating /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index
+[2.947s] creating /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index/resource_index
+[2.947s] creating /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index/resource_index/packages
+[2.948s] copying resource/pyPubsub -> /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index/resource_index/packages
+[2.948s] copying package.xml -> /home/kyu8/ros2_ws/install/pyPubsub/share/pyPubsub
+[2.948s] running install_egg_info
+[2.951s] Copying ../../build/pyPubsub/pyPubsub.egg-info to /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub-0.0.0-py3.10.egg-info
+[2.952s] running install_scripts
+[2.991s] Installing listener script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub
+[2.992s] Installing talker script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub
+[2.993s] writing list of installed files to '/home/kyu8/ros2_ws/build/pyPubsub/install.log'
+[3.112s] Invoked command in '/home/kyu8/ros2_ws/src/pyPubsub' returned '0': PYTHONPATH=/home/kyu8/ros2_ws/build/pyPubsub/prefix_override:/home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pyPubsub build --build-base /home/kyu8/ros2_ws/build/pyPubsub/build install --record /home/kyu8/ros2_ws/build/pyPubsub/install.log --single-version-externally-managed

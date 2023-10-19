@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/pyPubsub/pyPubsub.egg-info
+writing ../../build/pyPubsub/pyPubsub.egg-info/PKG-INFO
+writing dependency_links to ../../build/pyPubsub/pyPubsub.egg-info/dependency_links.txt
+writing entry points to ../../build/pyPubsub/pyPubsub.egg-info/entry_points.txt
+writing requirements to ../../build/pyPubsub/pyPubsub.egg-info/requires.txt
+writing top-level names to ../../build/pyPubsub/pyPubsub.egg-info/top_level.txt
+writing manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+reading manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+writing manifest file '../../build/pyPubsub/pyPubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kyu8/ros2_ws/build/pyPubsub/build
+creating /home/kyu8/ros2_ws/build/pyPubsub/build/lib
+creating /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+copying pyPubsub/__init__.py -> /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+copying pyPubsub/subscriber_member_function.py -> /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+copying pyPubsub/publisher_member_function.py -> /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub
+running install
+running install_lib
+creating /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+copying /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub/__init__.py -> /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+copying /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub/subscriber_member_function.py -> /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+copying /home/kyu8/ros2_ws/build/pyPubsub/build/lib/pyPubsub/publisher_member_function.py -> /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub
+byte-compiling /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+byte-compiling /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+running install_data
+creating /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index
+creating /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index/resource_index
+creating /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index/resource_index/packages
+copying resource/pyPubsub -> /home/kyu8/ros2_ws/install/pyPubsub/share/ament_index/resource_index/packages
+copying package.xml -> /home/kyu8/ros2_ws/install/pyPubsub/share/pyPubsub
+running install_egg_info
+Copying ../../build/pyPubsub/pyPubsub.egg-info to /home/kyu8/ros2_ws/install/pyPubsub/lib/python3.10/site-packages/pyPubsub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub
+Installing talker script to /home/kyu8/ros2_ws/install/pyPubsub/lib/pyPubsub
+writing list of installed files to '/home/kyu8/ros2_ws/build/pyPubsub/install.log'
